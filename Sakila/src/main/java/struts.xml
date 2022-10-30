@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+   "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default" extends="json-default">
+
+		<action name="dataLoading" class="com.sakila.action.Action"
+			method="dataLoading">
+			<!-- default method for action is execute() -->
+			<result name="success" type="json">
+				<param name="response">
+				</param>
+				<param name="excludeNullProperties">
+					data</param>
+			</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="addRow" class="com.sakila.action.Action"
+			method="addRow">
+			<result name="success">index.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="advanceSearch" class="com.sakila.action.Action"
+			method="advanceSearch">
+			<result name="success" type="json">
+				<param name="response">
+				</param>
+				<param name="excludeNullProperties">
+					data</param>
+			</result>
+			<result name="error">error.jsp</result>
+		</action>
+	</package>
+</struts>

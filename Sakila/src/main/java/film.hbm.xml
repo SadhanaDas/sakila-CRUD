@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.sakila.pojo.Film" table="film">
+
+		<id name="film_id" type="integer" column="film_id">
+			<generator class="native" />
+		</id>
+
+		<property name="title" column="title" type="string" />
+
+		<property name="description" column="description" type="string" />
+
+		<property name="release_year" column="release_year" type="string" />
+		
+		<!-- <many-to-one name="language_id" column="language_id" lazy="false"
+		class="com.sakila.pojo.Language" not-null="true"/> -->
+		
+		<property name="language_id" column="language_id" type="string" />
+		
+		<property name="director" column="director" type="string" />
+		
+		<property name="rating" column="rating" type="string" />
+		
+		<property name="special_features" column="special_features" type="string" />
+		
+		<!-- 15926 SADHANA DAS -->
+
+	</class>
+</hibernate-mapping>
