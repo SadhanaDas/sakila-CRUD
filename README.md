@@ -52,5 +52,19 @@ This project is used to train for developing web applications using advanced top
           iv. Convert the entire API handling from servlet to struts framework.
           v. You may create multiple action files or a single action file with multiple methods. Ideally a single JS UI should have a single action file.
 
- 4. 
-  
+ 4. Spring Application
+ 
+         i. Prepare the applicationContext.xml
+         ii. code should follow the below mentioned flow: UI -> Action -> Manager -> Dao
+         iii. The model Package should contain all the POJOs and DTOs.
+         iv. The Dao Package would contain the DAO Interface and the DAOImpl Package would contain the implementation of the DAO Interface.
+         v. Similar to DAO the Manager and ManagerImpl Package would follow the same steps.
+    
+  5. Hibernate Application
+        
+         i. Prepare the applicationContext.xml.
+         ii. The project structure should look as shown in the below image. Note that the hbm.cfg.xml file should be present inside of the src folder.
+         
+ 
+ The Project structure can be described as follow:
+<img width="209" alt="image" src="https://user-images.githubusercontent.com/77729425/202128740-2b60feae-453a-4fd0-9563-bba08ff13645.png">
