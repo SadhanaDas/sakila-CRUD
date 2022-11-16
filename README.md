@@ -32,5 +32,25 @@ This project is used to train for developing web applications using advanced top
           vii. Special Features
           
     c. Create a model for the grid and a static store to display the data onto the grid.
+    <img width="801" alt="image" src="https://user-images.githubusercontent.com/77729425/202121700-beae6387-bf0f-4874-979d-2bf99c42dc26.png">
+
+
+ 2. DB Connection and Data Fetching using JDBC
+ 
+          i. Setup the servlet classes to get the grid data and handle Add, Edit and Delete requests
+          ii. Create AJAX calls to your servlet. You will need to create different functions for handling different AJAX requests
+          iii. Create a separate class file for database connection establishment using JDBC
+          iv. Create a model class of the database table. The class variables need to be private
+          v. The null values need to be handled and Release Year format should be YYYY
+          vi. Return the data response from servlet to ExtJS UI in JSON format
+   
+ 3. Struts Application
     
-        <img width="801" alt="image" src="https://user-images.githubusercontent.com/77729425/202121189-93033f82-70d5-4521-a721-712fbf0c0514.png">
+          i. Prepare the struts.xml 
+          ii. Prepare the filter and filter mapping for your struts file inside the web.xml file
+          iii. Implement MVC framework action layer. The struts action file should be used instead of the previously implemented servlet file for handling the api calls.
+          iv. Convert the entire API handling from servlet to struts framework.
+          v. You may create multiple action files or a single action file with multiple methods. Ideally a single JS UI should have a single action file.
+
+ 4. 
+  
