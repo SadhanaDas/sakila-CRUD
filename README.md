@@ -11,6 +11,15 @@ This project is used to train for developing web applications using advanced top
 3. Sakila schema in MySQL database
 4. Tomcat 8.5+
 
+**JAR FILES NEEDEED**
+
+ 1. Struts2
+ 2. Hibernate
+ 3. Spring
+ 4. ExtJS
+ 
+ **ALL THESE ARE INCLUDED IN THE PROJECT WITH THEIR RESPECTIVE NAMES
+
 **STEPS FOLLOWED FOR THE PROJECT BUILDING :**
 
 1. Frontend UI Creation using EXTJS framework.
