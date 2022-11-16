@@ -63,7 +63,7 @@ This project is used to train for developing web applications using advanced top
   5. Hibernate Application
         
          i. Prepare the applicationContext.xml.
-         ii. The project structure should look as shown in the below image. Note that the hbm.cfg.xml file should be present inside of the src folder.
+         ii. Note that the hbm.cfg.xml file should be present inside of the src folder.
          
  
  The Project structure can be described as follow:
